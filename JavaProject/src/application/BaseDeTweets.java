@@ -72,7 +72,7 @@ public class BaseDeTweets {
 			br = new BufferedReader(i);
 			ligne=br.readLine();
 			//tant qu'il y a des lignes dans le fichier
-			while(ligne!=null && n<500000) {
+			while(ligne!=null && n<100000) {
 				n++;
 				//on split les différentes colonnes qui sont séparées par des tabulations
 				String[]tab=ligne.split("\t+");
